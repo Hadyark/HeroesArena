@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="heroesArena" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/heroesArena" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++14" />
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/heroesArena" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="../../../../../../../Program Files (x86)/CodeBlocks_sfml/SFML-2.5.1/include" />
+		</Compiler>
+		<Linker>
+			<Add directory="../../../../../../../Program Files (x86)/CodeBlocks_sfml/SFML-2.5.1/lib" />
+		</Linker>
+		<Unit filename="include/About.h" />
+		<Unit filename="include/Battle.h" />
+		<Unit filename="include/DisplayedObject.h" />
+		<Unit filename="include/Game.h" />
+		<Unit filename="include/Hero.h" />
+		<Unit filename="include/Hud.h" />
+		<Unit filename="include/Menu.h" />
+		<Unit filename="include/Priest.h" />
+		<Unit filename="include/SelectClass.h" />
+		<Unit filename="include/Spell.h" />
+		<Unit filename="include/Team.h" />
+		<Unit filename="include/TileMapView.h" />
+		<Unit filename="include/Warrior.h" />
+		<Unit filename="include/Wizard.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/About.cpp" />
+		<Unit filename="src/Battle.cpp" />
+		<Unit filename="src/DisplayedObject.cpp" />
+		<Unit filename="src/Game.cpp" />
+		<Unit filename="src/Hero.cpp" />
+		<Unit filename="src/Hud.cpp" />
+		<Unit filename="src/Menu.cpp" />
+		<Unit filename="src/Priest.cpp" />
+		<Unit filename="src/SelectClass.cpp" />
+		<Unit filename="src/Spell.cpp" />
+		<Unit filename="src/Team.cpp" />
+		<Unit filename="src/TileMapView.cpp" />
+		<Unit filename="src/Warrior.cpp" />
+		<Unit filename="src/Wizard.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
